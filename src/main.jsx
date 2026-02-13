@@ -9,6 +9,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import './assets/css/index.css'
 import App from './App.jsx'
 
+document.getElementById('root').classList.add('text-bg-dark');
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
     <App />
