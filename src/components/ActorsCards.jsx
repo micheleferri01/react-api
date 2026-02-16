@@ -10,7 +10,7 @@ export default function ActorsCards({ actors }) {
                             <li><span className="fw-bold">Birth date:</span> {actor.birth_year}</li>
                             <li><span className="fw-bold">Nationality:</span> {actor.nationality}</li>
                             <li><span className="fw-bold">Biography:</span> {actor.biography}</li>
-                            <li><span className="fw-bold">Awards:</span> {actor.awards} </li>
+                            <li><span className="fw-bold">Awards:</span> {actor.awards.join(', ')} </li>
                             <li><span className="fw-bold">Known for:</span> {actor.known_for.join(', ')}</li>
                         </ul>
                     </div>
